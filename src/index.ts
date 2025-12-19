@@ -7,6 +7,7 @@ import {
   calculateCaloriesForGoal,
   calculateMacrosForCalories,
 } from './formulas/calculate-calories';
+import { calculateHydration } from './formulas/hydration';
 import { calculateTDEE } from './formulas/tdee';
 
 export default {
@@ -18,4 +19,5 @@ export default {
   calculateBodyFat,
   calculateCaloriesForGoal,
   calculateMacrosForCalories,
+  calculateHydration,
 };
