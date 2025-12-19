@@ -10,6 +10,7 @@ import {
 import { calculateHydration } from './formulas/hydration';
 import { calculateLBM } from './formulas/lbm';
 import { calculateTDEE } from './formulas/tdee';
+import { calculateWaistToHeightRatio } from './formulas/whtr';
 
 export default {
   Gender,
@@ -22,4 +23,5 @@ export default {
   calculateMacrosForCalories,
   calculateHydration,
   calculateLBM,
+  calculateWaistToHeightRatio,
 };
