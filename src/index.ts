@@ -8,6 +8,7 @@ import {
   calculateMacrosForCalories,
 } from './formulas/calculate-calories';
 import { calculateHydration } from './formulas/hydration';
+import { calculateLBM } from './formulas/lbm';
 import { calculateTDEE } from './formulas/tdee';
 
 export default {
@@ -20,4 +21,5 @@ export default {
   calculateCaloriesForGoal,
   calculateMacrosForCalories,
   calculateHydration,
+  calculateLBM,
 };
