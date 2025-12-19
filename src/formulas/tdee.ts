@@ -1,6 +1,15 @@
 import { ActivityLevel } from '../enums/activity-level';
 import { Gender } from '../enums/gender';
 
+/**
+ * Calculate TDEE
+ * @param weight in kilograms
+ * @param height in meters
+ * @param age in years
+ * @param gender
+ * @param activity
+ * @returns a final TDEE
+ */
 export function calculateTDEE(
   weight: number,
   height: number,
