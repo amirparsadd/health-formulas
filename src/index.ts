@@ -9,6 +9,7 @@ import {
 } from './formulas/calculate-calories';
 import { calculateHydration } from './formulas/hydration';
 import { calculateLBM } from './formulas/lbm';
+import { calculateBodyWater } from './formulas/tbw';
 import { calculateTDEE } from './formulas/tdee';
 import { estimateVO2Max } from './formulas/vo2max';
 import { calculateWaistToHeightRatio } from './formulas/whtr';
@@ -26,4 +27,5 @@ export default {
   calculateLBM,
   calculateWaistToHeightRatio,
   estimateVO2Max,
+  calculateBodyWater,
 };
