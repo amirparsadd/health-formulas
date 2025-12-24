@@ -14,3 +14,4 @@ export { calculateLBM } from './formulas/lbm';
 export { calculateBodyWater } from './formulas/tbw';
 export { estimateVO2Max } from './formulas/vo2max';
 export { calculateWaistToHeightRatio } from './formulas/whtr';
+export { calculateAge } from './formulas/age';
